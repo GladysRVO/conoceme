@@ -296,7 +296,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
     .menu__list__contato {
         display: none;
     }

@@ -18,7 +18,14 @@ ol, ul, li {
     list-style: none;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: var(--morado-oscuro);
+}
+
 header {
+    max-width: 1000px;
+    margin: 0 auto;
     height: 60px;
     padding: 0, 5;
     display: flex;
