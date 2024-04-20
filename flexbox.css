@@ -1,0 +1,498 @@
+@media (min-width: 430px) {
+    header{
+        gap: 25%;
+    }
+
+    .menu__lista {
+        display: none;
+    }
+
+    .menu__list__contato {
+       text-decoration: none;
+    }
+
+    .title__div {
+        padding: 0 10px;
+    }
+    .title__foto {
+        width: 168px;
+        height: 168px;
+        border-radius: 200px;
+        border: 1px solid var(--morado-oscuro);
+    }
+
+    .title__redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        width: hug (467px);
+        height: hug (24px);
+        font-size: 16px;
+        font-family: "Assistant", sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: #211224;
+    }
+
+    .sobre__mi__container {
+        padding: 0 10px;
+    }
+
+    .skills__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills__box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .skills__item {
+        width: 40%;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    .hobbies__img {
+        width: 100px;
+        height: 100px;
+        border-radius: 200px;
+        border: 1px solid var(--morado-oscuro);
+    }
+
+    .hobbies__box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 40px;
+        padding-left: 30px;
+    }
+    .hobbies__item {
+        width: 36%;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: space-between;
+        
+    }
+
+    .experiencia {
+        width: fill (360px);
+        height: hug (861px);
+    }
+
+    .experiencia__img {
+        width: 360px;
+        height: 200px;
+    }
+
+   .experiencia__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experiencia__decodificador {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 10px 0;
+    }
+
+    .experiencia__info {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       align-self: flex-start;
+       gap: 0px;
+       padding-left: 15px;
+    }
+
+    .formacion {
+        width: fill (460px);
+        height: hug (661px);
+        padding-left: 0, 10px;
+    }
+    
+    .formacion__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 0px,
+    }
+    .formacion__item {
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .formcontacto__img {
+        display: none;
+    }
+
+    .formcontato__form {
+        width: fill (296px);
+        height: hug ( 397px);
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .formcontato__input{
+        width: 296px;
+        height: 56px;
+    }
+    .formcontato__textarea {
+        width: 296px;
+        height: 133px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .menu__lista {
+        display: none;
+    }
+
+    .presentacion {
+        display: flex;
+    }
+
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .title__container {
+        width: 495px;
+        height: 150px;
+        gap: 8px;
+    }
+
+    .title__redes {
+        width: 495px;
+        height: Hug (24px)px;
+        gap: 32px;
+        opacity: 0px;
+        width: hug (467px);
+        height: hug (24px);
+        font-size: 16px;
+        font-family: "Assistant", sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: #211224;
+        }
+
+    .sobre__mi {
+        width: 90%;
+        height: Hug (286px)px;
+        padding: 32px 0px 0px 0px;
+        gap: 10px;
+        opacity: 0px;
+        padding: 0, 20px;
+    }
+
+    .skills {
+        width: 90%;
+        height: Hug (390px);
+        padding: 32px 0px 0px 0px;
+        gap: 32px;
+        opacity: 0px;
+
+    }
+    .skills__box {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 50px;
+        width: 100%;
+    }
+    
+    .skills__item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: fill (224px);
+        height: hug (118px);
+    }
+
+    .skills__nombre {
+        padding-left: 15px;
+    }
+    
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        width: fill (768px);
+        height: hug (390px);
+    }
+    
+    .hobbies__box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .hobbies__item {
+        width: 25%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: hug (118px);
+    }
+
+    .formacion {
+        width: 695px;
+        height: hug (291px);
+    }
+    
+    .formacion__img {
+    width: 268px;
+    height: 186px;
+    }
+    
+    .formacion__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .experiencia__img {
+        width: 704px;
+        height: 320px;
+    }
+
+    .experiencia__box {
+        width: Fill (704px)px;
+        height: Hug (91px)px;
+        gap: 8px;
+    }
+
+    .experiencia__info {
+        width: Fill (704px)px;
+        height: Hug (90px)px;
+        gap: 1px;
+        padding-left: 40px;
+    }
+
+    .formcontato__input {
+        width: 704px;
+        height: 40px;
+        top: 55px;
+    }
+    .formcontato__textarea {
+        width: 704px;
+        height: 133px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu__list__contato {
+        display: none;
+    }
+    .menu__lista {
+        display:block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-around;
+        width: 700px;
+        height: hug (88px);
+        gap: 3px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .logo__img {
+        width: 50px;
+        height: 50px;
+        padding-top: 15px;
+        padding-left: 130px;
+    }
+    .menu__lista {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        gap: 30px;
+        width: 800px;
+    }
+
+    .menu__list__item {
+        text-decoration: none;
+    }
+
+    .presentacion {
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        width: 1136px;
+        height: 368px;
+    }
+    .title__div {
+        Width: 1100px;     
+        Height: Hug (368px);
+        justify-content: space-between;
+        align-items: self-start;
+        gap: 50px;
+        padding-top: 50px;
+    }
+
+    .title__bio {
+        width: 700px;
+        height: 50px;
+    }
+
+    .title__subtitulo {
+        width: 700px;
+        height: 50px;
+    }
+
+    .title__foto {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title__redes {
+        width: 600px;
+        height: Hug (24px)px;
+        gap: 32px;
+        opacity: 0px;
+        width: hug (467px);
+        height: hug (24px);
+        font-size: 22px;
+        font-family: "Assistant", sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: #211224;
+    }
+    
+    .sobre__mi {
+        Width: 1150px;     
+        height: 500px;
+        padding: 32px 0px 0px 0px;
+        gap: 10px;
+    }
+
+    .sobre__mi__container {
+        Width: 1100px;     
+        height: 400px;
+    }
+
+    .skills {
+        width: 1136px;
+        height: 244px;
+    }
+    .hobbies {
+        width: 1136px;
+        height: 444px;
+    }
+    .hobbies__box {
+        width: 1136px;
+        height: 200px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .formacion {
+        width: 1136px;
+        height: 470px;
+    }
+    .formacion__img {
+        width: 400px;
+        height: 230px;
+    }
+
+    .formacion__box {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .experiencia {
+        width: 1136px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiencia__box {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline
+    }
+
+    .experiencia__info {
+       padding-top: 60px;
+    }
+
+    .formcontacto__img {
+        display: block;
+        width: 464px;
+        height: 630px;
+    }
+
+    .formcontacto {
+        width: 1136px;
+        height: 800px;
+    }
+
+    
+    .formcontato__contacto{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        height: 100%;
+        gap: 10px;
+        }
+    
+    .formcontacto__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 0px;
+        width: 600px;
+    
+        }
+    
+    .formcontacto--esquerda {
+        flex: 1;
+        }
+    
+    .formcontato__form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    
+    .formcontato__input {
+        width: 600px;
+        height: 40px;
+        top: 55px;
+    }
+    .formcontato__textarea {
+        width: 600px;
+        height: 133px;
+    }
+    
+    footer {
+        width: Fixed (1,440px);
+        height: Hug (102px);
+        padding-top: 500px;
+        
+        
+    }
+}
